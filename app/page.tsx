@@ -73,8 +73,8 @@ export default function Chat() {
                   <UserIcon />
                 ) : (
                   <Image
-                    src="/shooketh.png"
-                    alt="Shakespeare"
+                    src="/2DD53814-1DE6-4B39-B546-69ACE894BC1D.jpeg"
+                    alt="Moriarty"
                     width={36}
                     height={36}
                   />
@@ -90,8 +90,8 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <Image
-              src="/shooketh.png"
-              alt="Shooketh"
+              src="/2DD53814-1DE6-4B39-B546-69ACE894BC1D.jpeg"
+              alt="Moriarty"
               width={40}
               height={40}
               className="h-20 w-20"
@@ -209,7 +209,7 @@ export default function Chat() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            Trained using Basilisk1.5, Llama2 and Npm i Sdk
+            Trained using Basilisk1.5, Llama2 output, GPT and Npm i Sdk
           </a>{" "}
           as well as the arthur connan Doyle works.{" "}
           <a
