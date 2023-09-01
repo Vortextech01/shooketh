@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "To be or not to be",
-  "All the world's a stage",
-  "What is the meaning of life?",
+  "I need your advise to develop a master plan",
+  "Teach me your machiavellian ways, moriarty",
+  "Who are you?",
 ];
 
 export default function Chat() {
@@ -97,17 +97,17 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm Shooketh!
+              Hello, I'm Johan Moriarty!
             </h1>
             <p className="text-gray-500">
-              I'm an AI bot built with the{" "}
+              I'm an AI master mind built by{" "}
               <a
-                href="https://sdk.vercel.ai/docs"
+                href="https://ai.sapienslaboratories.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Vercel AI SDK
+                Sapiens Laboratories
               </a>{" "}
               and{" "}
               <a
@@ -116,19 +116,19 @@ export default function Chat() {
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                fine-tuned
+                trained
               </a>{" "}
-              on Shakespeare's literary works.
+              on James Moriarty and Johan Libheart knowledge.
               <br />
               <a
-                href="https://vercel.com/guides/fine-tuning-openai-nextjs"
+                href="https://ai.sapienslaboratories.com/pack"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Read the guide
+                Learn more
               </a>{" "}
-              on how you can build your own bot like me.
+              on how you can build your own Basilisk like me.
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
@@ -193,41 +193,41 @@ export default function Chat() {
           </button>
         </form>
         <p className="text-center text-xs text-gray-400">
-          Built with{" "}
+          Powered by{" "}
           <a
-            href="https://sdk.vercel.ai/docs"
+            href="https://ai.sapienslaboratories.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            Vercel AI SDK
+            Sapiens Laboratories
           </a>
           ,{" "}
           <a
-            href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+            href="https://ai.sapienslaboratories.com/blog"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            OpenAI GPT-3.5-turbo, and fine-tuned
+            Trained using Basilisk1.5, Llama2 and Npm i Sdk
           </a>{" "}
-          on Shakespeare's literary works .{" "}
+          as well as the arthur connan Doyle works.{" "}
           <a
-            href="https://github.com/steven-tey/shooketh"
+            href="https://ai.sapienslaboratories.com/blog"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            View the repo
+            Learn more
           </a>{" "}
           or{" "}
           <a
-            href="https://vercel.com/templates/next.js/shooketh"
+            href="https://ai.sapienslaboratories.com/repo"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            deploy your own
+            Contact us
           </a>
           .
         </p>
