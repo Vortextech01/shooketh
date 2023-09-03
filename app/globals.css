@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+background-image: url("https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/B09CD4AE-FB7D-48ED-8863-977B0B9CC0AD.jpeg");
+background-size: cover;
+background-position: center;
+
+.bg-image {
+  background-image: url("https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg");
+  background-size: cover;
+  background-position: center;
+}
