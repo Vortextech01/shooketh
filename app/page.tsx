@@ -57,8 +57,8 @@ export default function Chat() {
           <div
             key={i}
             className={clsx(
-              "flex w-full items-center justify-center border-b border-gray-200 py-8",
-              message.role === "user" ? "bg-white" : "bg-gray-100",
+              "flex w-full items-center justify-center border-b border-gray-300 py-8",
+              message.role === "user" ? "bg-black" : "bg-gray-500",
             )}
           >
             <div className="flex w-full max-w-screen-md items-start space-x-4 px-5 sm:px-0">
