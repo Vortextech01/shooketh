@@ -57,7 +57,7 @@ return (
         <div
           key={i}
           className={clsx(
-            "flex w-full items-center justify-center border-b border-white-200 py-8",
+            "flex w-full items-center justify-center border-b border-black-200 py-8",
             message.role === "user" ? "bg-black" : "bg-[url]",
           )}
         >
@@ -87,7 +87,7 @@ return (
         </div>
       ))
     ) : (
-      <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full bg-[url]">
+      <div className="border-black-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full bg-[url]">
         <div className="flex flex-col space-y-4 p-7 sm:p-10">
           <Image
             src="/2DD53814-1DE6-4B39-B546-69ACE894BC1D.jpeg"
