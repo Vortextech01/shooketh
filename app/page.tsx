@@ -238,4 +238,4 @@ export default function Chat() {
       </p>
     </div>
   </main>
-);
+)
