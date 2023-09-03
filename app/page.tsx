@@ -35,7 +35,7 @@ export default function Chat() {
   const disabled = isLoading || input.length === 0;
 
 return (
-  <main className="flex flex-col items-center justify-between pb-40 bg-[url]">
+  <main className="flex flex-col items-center justify-between pb-40 bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]">
     <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
       <a
         href="https://vercel.com/templates/next.js/shooketh"
@@ -58,14 +58,14 @@ return (
           key={i}
           className={clsx(
             "flex w-full items-center justify-center border-b border-gray-200 py-8",
-            message.role === "user" ? "bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]" : "bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]",
+            message.role === "user" ? "bg-[url]" : "bg-[url]",
           )}
         >
           <div className="flex w-full max-w-screen-md items-start space-x-4 px-5 sm:px-0">
             <div
               className={clsx(
                 message.role === "assistant"
-                  ? "bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]"
+                  ? "bg-[url]"
                   : "bg-black p-1.5 text-white",
               )}
             >
@@ -111,7 +111,7 @@ return (
             </a>{" "}
             and{" "}
             <a
-              href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+              href="https://ai.sapienslaboratories.com/blog"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium underline underline-offset-4 transition-colors hover:text-black"
