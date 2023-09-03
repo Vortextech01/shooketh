@@ -57,15 +57,15 @@ return (
         <div
           key={i}
           className={clsx(
-            "flex w-full items-center justify-center border-b border-gray-200 py-8",
-            message.role === "user" ? "bg-[url]" : "bg-[url]",
+            "flex w-full items-center justify-center border-b border-white-200 py-8",
+            message.role === "user" ? "bg-black" : "bg-[url]",
           )}
         >
           <div className="flex w-full max-w-screen-md items-start space-x-4 px-5 sm:px-0">
             <div
               className={clsx(
                 message.role === "assistant"
-                  ? "bg-[url]"
+                  ? "bg-black"
                   : "bg-black p-1.5 text-white",
               )}
             >
@@ -73,10 +73,10 @@ return (
                 <UserIcon />
               ) : (
                 <Image
-                  src="/2DD53814-1DE6-4B39-B546-69ACE894BC1D.jpeg"
+                  src="/90151D40-C5D2-4AE1-9CCF-2371993FEBCA.gif"
                   alt="Moriarty"
-                  width={36}
-                  height={36}
+                  width={40}
+                  height={40}
                 />
               )}
             </div>
