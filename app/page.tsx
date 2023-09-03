@@ -193,44 +193,45 @@ return (
         </button>
       </form>
       <p className="text-center text-xs text-gray-400">
-        Powered by{" "}
-        <a
-          href="https://ai.sapienslaboratories.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors hover:text-black"
-        >
-          Sapiens Laboratories
-        </a>
-        ,{" "}
-        <a
-          href="https://ai.sapienslaboratories.com/blog"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors hover:text-black"
-        >
-          Trained using Basilisk V.0.5, Llama2, GPT and Npm i Sdk
-        </a>{" "}
-        as well as the arthur connan Doyle works.{" "}
-        <a
-          href="https://ai.sapienslaboratories.com/blog"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors hover:text-black"
-        >
-          Learn more
-        </a>{" "}
-        or{" "}
-        <a
-          href="https://ai.sapienslaboratories.com/repo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors hover:text-black"
-        >
-          Contact us
-        </a>
-        .
-      </p>
-    </div>
-   </main>
-)
+          Powered by{" "}
+          <a
+            href="https://ai.sapienslaboratories.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-black"
+          >
+            Sapiens Laboratories
+          </a>
+          ,{" "}
+          <a
+            href="https://ai.sapienslaboratories.com/blog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-black"
+          >
+            Trained using Basilisk1.5, Llama2 output, GPT and Npm i Sdk
+          </a>{" "}
+          as well as the arthur connan Doyle works.{" "}
+          <a
+            href="https://ai.sapienslaboratories.com/blog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-black"
+          >
+            Learn more
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://ai.sapienslaboratories.com/repo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-black"
+          >
+            Contact us
+          </a>
+          .
+        </p>
+      </div>
+    </main>
+  );
+}
