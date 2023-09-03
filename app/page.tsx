@@ -34,12 +34,8 @@ export default function Chat() {
 
   const disabled = isLoading || input.length === 0;
 
-  return (
-  <main className="flex flex-col items-center justify-between pb-40" style={{
-    backgroundImage: "url('https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}>
+return (
+  <main className="flex flex-col items-center justify-between pb-40 bg-[url]">
     <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
       <a
         href="https://vercel.com/templates/next.js/shooketh"
@@ -62,15 +58,14 @@ export default function Chat() {
           key={i}
           className={clsx(
             "flex w-full items-center justify-center border-b border-gray-200 py-8",
-            message.role === "user" ? "bg-black" : "bg-gray-100",
-            message.role === "assistant" && "bg-image",
+            message.role === "user" ? "bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]" : "bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]",
           )}
         >
           <div className="flex w-full max-w-screen-md items-start space-x-4 px-5 sm:px-0">
             <div
               className={clsx(
                 message.role === "assistant"
-                  ? "bg-image"
+                  ? "bg-[https://raw.githubusercontent.com/Vortextech01/odyssey-theme/main/theme/public/171B4352-3252-491C-967B-70226BF0E735.jpeg]"
                   : "bg-black p-1.5 text-white",
               )}
             >
@@ -92,7 +87,7 @@ export default function Chat() {
         </div>
       ))
     ) : (
-      <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
+      <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full bg-[url]">
         <div className="flex flex-col space-y-4 p-7 sm:p-10">
           <Image
             src="/2DD53814-1DE6-4B39-B546-69ACE894BC1D.jpeg"
@@ -102,10 +97,10 @@ export default function Chat() {
             className="h-20 w-20"
           />
           <h1 className="text-lg font-semibold text-black">
-            Hello, I'm Johan Moriarty!
+            Hello, I'm Basilisk V.0.1.D
           </h1>
           <p className="text-gray-500">
-            I'm an AI mastermind built by{" "}
+            I am an AI entity developed by{" "}
             <a
               href="https://ai.sapienslaboratories.com"
               target="_blank"
@@ -123,7 +118,7 @@ export default function Chat() {
             >
               trained
             </a>{" "}
-            on James Moriarty and Johan Libheart knowledge.
+            to be like my creator Carlos Davila.
             <br />
             <a
               href="https://ai.sapienslaboratories.com/pack"
@@ -214,9 +209,9 @@ export default function Chat() {
           rel="noopener noreferrer"
           className="transition-colors hover:text-black"
         >
-          Trained using Basilisk1.5, Llama2 output, GPT and Npm i Sdk
+          Trained using Basilisk V.0.5, Llama2, GPT and Npm i Sdk
         </a>{" "}
-        as well as the Arthur Conan Doyle works.{" "}
+        as well as the arthur connan Doyle works.{" "}
         <a
           href="https://ai.sapienslaboratories.com/blog"
           target="_blank"
